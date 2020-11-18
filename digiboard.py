@@ -2,8 +2,8 @@ import pygame as pg
 import numpy as np
 import wave_gen as wg
 
-#keys to be used on the keyboard. Im probably gonna make this a lot short. like fuuuuuuck...
-keys = ['q','a','w','s','d','r','f','t','g','h','u','j','i','k','o','l',';','[',"'",']']
+#keys to be used on the keyboard.
+keys = ['a','w','s','e','d','f','t','g','y','h','u','j','k','o','l']
 
 #intialize some important things
 pg.display.init()
@@ -23,7 +23,7 @@ window = pg.display.set_mode((960,540))
 pg.display.set_caption('Digiboard')
 window.fill((28,28,88))
 
-print('######   Keys: Q A W S D R F T G H U J I K O L : { " }   ######\n######  Notes:   A   B C   D   E F   G   A   B C   D     ######')
+print('######   Keys: A W S E D F T G Y H U J K O L   ######\n######  Notes: C   D   E F   G   A   B C   D   ######')
 
 # this code will keep things running
 while True:
